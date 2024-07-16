@@ -65,7 +65,7 @@ const RecentProjects = () => {
                 {iconLists.map((icon, index) => (
                     <div 
                       key={index} 
-                      className="border border-white/[0.2] rounded-xl bg-black bg-opacity-30 lg:w-11 lg:h-11 w-10 h-10 flex justify-center items-center mx-1 hover:shadow-pink-500" 
+                      className="border border-white/[0.2] rounded-xl bg-white bg-opacity-20 lg:w-11 lg:h-11 w-10 h-10 flex justify-center items-center mx-1 hover:shadow-pink-500" 
                       style={{transform: `translateX(-${5 * index * 2} px)`}}
                       
                     >  
@@ -77,7 +77,7 @@ const RecentProjects = () => {
               
               {/* -- Card Live Site -- */}
               <div className="flex justify-center items-center">
-                <a href={link}><p className="flex lg:text-xl md:text-xs text-sm text-purple">Live Site <FaAngleDoubleRight className="ms-3 mt-1" color="#CBACF9"/></p></a>
+                <a href={link} target="_blank"><p className="flex lg:text-xl md:text-xs text-sm text-purple">Github<FaAngleDoubleRight className="ms-3 mt-1" color="#CBACF9"/></p></a>
               </div>
             </div>
 

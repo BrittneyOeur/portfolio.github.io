@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Contact", link: "#contact" },
+    { name: "Contact", link: "mailto:oeur.brittney@gmail.com" },
   ];
 
   export const gridItems = [
@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "I play video games and learn about custom keyboards",
-      description: "Outside of work...",
+      title: "I draw fanart, play video games and build custom keyboards",
+      description: "Outside of coding...",
       className: "md:col-span-2 md:row-span-1",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,8 +59,8 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "My resume",
-      description: "",
+      title: "resume",
+      description: "Check out my",
       className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -76,7 +76,7 @@ export const navItems = [
       des: "Personal website showcasing personal passion projects with Aceternity UI compenents integration.",
       img: "/portfolio.png",
       iconLists: ["/tail.svg", "/next.svg", "/re.svg"],
-      link: "https://brittneyoeur-personal-website.vercel.app/",
+      link: "https://github.com/BrittneyOeur/portfolio.github.io",
     },
     {
       id: 2,
@@ -84,7 +84,7 @@ export const navItems = [
       des: "Computer vision application designed to detect DS/3DS chips specificaully tailored for the Animal Crossing Series, utilizing OpenCV methods.",
       img: "/ac_matching.png",
       iconLists: ["/next.svg", "/cplusplus.svg", "/vscode.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/BrittneyOeur/CSS487_Final",
     },
     {
       id: 3,
@@ -92,7 +92,7 @@ export const navItems = [
       des: "Health tracking mobile application (high fidelity prototype) for informal caregivers.",
       img: "/WithCare.png",
       iconLists: ["/figma.svg", "/notion.svg", "balsamiq.png"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/BrittneyOeur/WithCare",
     },
     {
       id: 4,
@@ -109,11 +109,19 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      name: "Github",
       link: "https://github.com/BrittneyOeur"
     },
     {
       id: 2,
       img: "/link.svg",
+      name: "LinkedIn",
       link: "https://www.linkedin.com/in/brittney-o-05697b159/"
+    },
+    {
+      id: 3,
+      img: "/link.svg",
+      name: "Email",
+      link: "mailto:oeur.brittney@gmail.com"
     },
   ];
