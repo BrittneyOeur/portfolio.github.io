@@ -8,6 +8,8 @@ import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { FaFilePdf, FaLocationArrow } from "react-icons/fa";
+import { Meteors } from "./Meteors";
 
 export const BentoGrid = ({
   className,
@@ -80,6 +82,12 @@ export const BentoGridItem = ({
           )}
         </div>
 
+        {id == 1 && (
+          <Meteors number={20}>
+
+          </Meteors>
+        )}
+
         <div 
           className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"}`}>
           {spareImg && (
@@ -90,6 +98,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+
 
         {id == 6 && (
           <BackgroundGradientAnimation>
@@ -103,33 +112,32 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#c1c2d3] z-10">
+          <div className="font-sans font-extralight md:max-w-50 md:text-xs lg:text-base text-sm text-[#c1c2d3] z-10">
             {description}
           </div>
           <div className={"font-sans font-bold text-lg lg:text-3xl max-w-96 z-10"}>
           {title}
         </div>
       
-      {/* Is used for the second card */}
-      {id == 2 && <GlobeDemo />}
+      {/* {id == 2 && <GlobeDemo />} Is used for the second card */}
       
       {/* Third Card */}
       {id == 3 && (
-        <div className="flex gap-1 lg:gap-5 w-fit absolute -righ-3 lg:-right-2">
-          <div className="flex flex-col gap-3 lg:gap-8">
-            {['React.js', 'Next.js', 'TypeScript'].map
+        <div className="flex gap-1 lg:gap-5 w-fit absolute -righ-3 lg:-right-2">  {/* Controls the layout of the boxes*/}
+          <div className="flex flex-col gap-3 lg:gap-5">  {/* Controls the layout of the boxes*/}
+            {['React.js', 'Next.js'].map
             ((item) => (
-              <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xsl lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
+              <span key={item} className="py-2 lg:py-4 lg:px-5 px-3 text-xsl lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]"> {/* Controls the layout of the boxes*/}
                 {item}
               </span>
             ))}
             <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
           </div>
-          <div className="flex flex-col gap-3 lg:gap-8">
+          <div className="flex flex-col gap-3 lg:gap-5">
           <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-            {['VueJS', 'AWS', 'MongoDB'].map
+            {['Tailwind', 'OpenCV'].map
             ((item) => (
-              <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xsl lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
+              <span key={item} className="py-2 lg:py-4 lg:px-5 px-3 text-xsl lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
                 {item}
               </span>
             ))}
@@ -149,13 +157,15 @@ export const BentoGridItem = ({
               }
             }} />
           </div>
-          <MagicButton 
-            title={copied ? 'Email copied' : 'Copy my email'}
-            icon={<IoCopyOutline />}
-            position="left"
-            otherClasses="`bg-[#151a31]"
-            handleClick={handleCopy}
-          />
+          <a href="/Resume%2C%20Brittney%20Oeur.pdf" target="_blank">
+                <MagicButton
+                 title="Resume"
+                 icon={<FaFilePdf />}
+                 position="right"
+                 otherClasses="`bg-[#151a31]"
+                handleClick={handleCopy}
+                />
+          </a>
         </div>
       )}
       </div>

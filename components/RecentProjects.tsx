@@ -1,7 +1,9 @@
 import React from 'react'
 import { projects } from '@/data'
 import { PinContainer } from './ui/3d-pin'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaAngleDoubleRight, FaLocationArrow } from 'react-icons/fa'
+import { CardBody, CardContainer, CardItem } from './ui/3d-Card-Effect'
+import { Tooltip } from 'react-tooltip'
 
 const RecentProjects = () => {
   return (
@@ -9,74 +11,81 @@ const RecentProjects = () => {
     <div className="py-20" id="projects">
 
       {/* controls the text sizing */}
-      <h1 className="heading">
+      <h1 className="heading text-purple">
         Selections of {' '}
-        <span className="text-purple">Recent Projects</span>
+        <span className="text-darkpurple">Recent Projects</span>
       </h1>
 
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 mt-15">
+
         {projects.map(({
           id, title, des, img, iconLists, link}) => (
           <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"> {/* Changes the layout of the cards of each project */}
-          <PinContainer 
-            title={link} 
-            href={link}
-          >
-            {/* Controls the size of the entire card */}
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-              <div 
-                className="relative w-full h-full overflow-hidden lg:rounded-3xl" 
-                style = {{backgroundColor: "#13162D"}}
-              > {/* wrapper for image */}
-                <img src="/bg.png" alt="big-img"/>
-              </div>
 
-                <img 
-                  src={img} 
-                  alt={title} 
-                  className="z-10 absolute bottom-0"
-                />
-              </div>
+        {/* -- Card Containers -- */}
+        <CardContainer className="inter-var">
+          <CardBody className="relative group/card dark:bg-darkpurple dark:hover:shadow-2xl dark:hover:shadow-pink-500/[0.5] dark:border-white/[0.2] border-black/[0.1] w-[80vw] sm:w-[590px] h-[55vh] rounded-xl p-6 border">
+            <CardItem
+              translateZ="50"
+              className="text-xl font-bold text-neutral-600 dark:text-white"
+            >
 
-              {/* Title of the card */}
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {title}
-              </h1>
+            {/* -- Card Title -- */}
+            <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              {title}
+            </h1>
+            </CardItem>
 
-              {/* Description per card */}
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                style = {{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
+            {/* -- Card Image -- */}
+            <CardItem translateZ="100" className="w-full mt-4">
+              <img
+                src={img}
+                height="1000"
+                width="1000"
+                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                alt="thumbnail"
+              />
+              </CardItem>
+
+            {/* -- Card Descrption -- */}
+            <CardItem
+                as="p"
+                translateZ="60"
+                className="text-neutral-500 text-sm max-w-300 mt-2 dark:text-neutral-300 pt-5 line-clamp-2"
               >
                 {des}
-              </p>
+            </CardItem>
+
+            {/* -- Card Footer Section -- */}
+            {/* -- Card Tools Icon -- */}
+            <div className="flex items-center justify-between mt-10">
+              <div className="flex items-center">
+
+                {/* Handles icon */} 
+                {iconLists.map((icon, index, iconName) => (
+                    <div 
+                      key={index} 
+                      className="border border-white/[0.2] rounded-xl bg-black bg-opacity-30 lg:w-11 lg:h-11 w-10 h-10 flex justify-center items-center mx-1 hover:shadow-pink-500" 
+                      style={{transform: `translateX(-${5 * index * 2} px)`}}
+                      
+                    >
+                      <Tooltip title={iconName}>
+                      </Tooltip>
+                      <img src={icon} alt={icon} className="p-3"/>
+                    </div>
+                ))}
+
+              </div>
               
-              {/* The tools section */}
-              <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
-                  {iconLists.map((icon, index) => (
-                      <div 
-                        key={index} 
-                        className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center" 
-                        style={{transform: `translateX(-${5 * index * 2} px)`
-                        }}
-                      >
-
-                        <img src={icon} alt={icon} className="p-2"/>
-                      </div>
-                  ))}
-
-                </div>
-
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">Live Site</p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+              {/* -- Card Live Site -- */}
+              <div className="flex justify-center items-center">
+                <a href={link}><p className="flex lg:text-xl md:text-xs text-sm text-purple">Live Site <FaAngleDoubleRight className="ms-3 mt-1" color="#CBACF9"/></p></a>
+              </div>
             </div>
-          </PinContainer>
-          </div>
+
+          </CardBody>
+        </CardContainer>
+        </div>
         ))}
       </div>
     </div>

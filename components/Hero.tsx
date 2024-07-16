@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaHeart, FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -13,11 +13,11 @@ const Hero = () => {
             <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill="purple" />
             <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
         </div>
-
+        
         {/* h = horizontal, screen will fill the entire */}
-        <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
+        <div className="h-screen w-full dark:bg-pink-100 bg-pink dark:bg-dot-black/[0.2] bg-dot-black/[0.2] flex items-center justify-center absolute top-0 left-0">
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-pink-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
         </div>
 
         <div className="flex justify-center relative my-20 z-10">
@@ -29,14 +29,13 @@ const Hero = () => {
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
                     words="Hi, Brittney here"
                 />
-                <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-[16px]">
-                    Graduated from the University of Washington with a major in Applied Computing and a minor in Informatics. <br></br>
-                    I love creating things for people and I want to use my creativity and tech skills to make an positive impact.
+                <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-[16px] text-darkpurple">
+                    A software engineer by day and an artist by heart. <br></br> I merge creativity and technology to build and inspire, aiming to make a positive impact.
                 </p>
-                <a href="#about">
+                <a href="#projects">
                     <MagicButton 
-                        title="Show my Work"
-                        icon={<FaLocationArrow />}
+                        title="Check out my work!"
+                        icon={<FaHeart />}
                         position="right"
                     />
                 </a>
