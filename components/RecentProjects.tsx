@@ -62,15 +62,13 @@ const RecentProjects = () => {
               <div className="flex items-center">
 
                 {/* Handles icon */} 
-                {iconLists.map((icon, index, iconName) => (
+                {iconLists.map((icon, index) => (
                     <div 
                       key={index} 
                       className="border border-white/[0.2] rounded-xl bg-black bg-opacity-30 lg:w-11 lg:h-11 w-10 h-10 flex justify-center items-center mx-1 hover:shadow-pink-500" 
                       style={{transform: `translateX(-${5 * index * 2} px)`}}
                       
-                    >
-                      <Tooltip title={iconName}>
-                      </Tooltip>
+                    >  
                       <img src={icon} alt={icon} className="p-3"/>
                     </div>
                 ))}
