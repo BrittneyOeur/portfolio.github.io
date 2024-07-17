@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "C++, Python, HTML, CSS, JavaScript",
+      title: "C++, Python, HTML, CSS, JavaScript, TypeScript",
       description: "Languages I am familiar with",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-full",

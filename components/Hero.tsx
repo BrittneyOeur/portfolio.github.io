@@ -22,15 +22,12 @@ const Hero = () => {
 
         <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                    {/* Dynamic Web Magic with Next.js */}
-                </h2>
                 <TextGenerateEffect 
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
                     words="Hi, Brittney here"
                 />
-                <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-[16px] text-darkpurple">
-                    A software engineer by day and an artist by heart. <br></br> I merge creativity and technology to build and inspire, aiming to make a positive impact.
+                <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-[15px] text-darkpurple">
+                    A software engineer by day and an artist by heart. <br></br> I merge creativity and technology to build and make a positive impact.
                 </p>
                 <a href="#projects">
                     <MagicButton 

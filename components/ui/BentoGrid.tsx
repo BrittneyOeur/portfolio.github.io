@@ -125,7 +125,7 @@ export const BentoGridItem = ({
       {id == 3 && (
         <div className="flex gap-1 lg:gap-5 w-fit absolute -righ-3 lg:-right-2">  {/* Controls the layout of the boxes*/}
           <div className="flex flex-col gap-3 lg:gap-5">  {/* Controls the layout of the boxes*/}
-            {['React.js', 'Next.js'].map
+            {['React', 'Next.js'].map
             ((item) => (
               <span key={item} className="py-2 lg:py-4 lg:px-5 px-3 text-xsl lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]"> {/* Controls the layout of the boxes*/}
                 {item}
