@@ -24,7 +24,7 @@ const RecentProjects = () => {
 
         {/* -- Card Containers -- */}
         <CardContainer className="inter-var">
-          <CardBody className="relative group/card dark:bg-darkpurple dark:hover:shadow-2xl dark:hover:shadow-pink-500/[0.5] dark:border-white/[0.2] border-black/[0.1] w-[80vw] sm:w-[590px] h-[55vh] lg:h-[40vh] rounded-xl p-6 border">
+          <CardBody className="absolute group/card dark:bg-darkpurple dark:hover:shadow-2xl dark:hover:shadow-pink-500/[0.5] dark:border-white/[0.2] border-black/[0.1] w-[80vw] sm:w-[590px] md:h-[55vh] lg:h-[500px] rounded-xl p-6 border">
             <CardItem
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
