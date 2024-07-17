@@ -10,7 +10,7 @@ export const navItems = [
       title: "Graduated from the University of Washington with a major in Applied Computing and a minor in Informatics.",
       description: "",
       /* Changes the size of the box */
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[40vh]",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[20vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
       img: "",
