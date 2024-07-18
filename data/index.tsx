@@ -75,7 +75,7 @@ export const navItems = [
       title: "Personal Portfolio (Web App)",
       des: "Personal website showcasing personal passion projects with Aceternity UI compenents integration.",
       img: "/portfolio.png",
-      iconLists: ["/tail.svg", "/next.svg", "/re.svg"],
+      iconLists: ["/ts.svg", "/tail.svg", "/next.svg", "/re.svg"],
       link: "https://github.com/BrittneyOeur/portfolio.github.io",
     },
     {
