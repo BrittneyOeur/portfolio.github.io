@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Brittney's Portfolio",
   description: "Portfolio",
   icons: {
-    icon: "/strawberryPastry.ico",
+    icon: "/favicon.ico",
   },
 };
 
