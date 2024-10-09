@@ -157,7 +157,7 @@ export const BentoGridItem = ({
               }
             }} />
           </div>
-          <a href="/Resume%2C%20Brittney%20Oeur.pdf" target="_blank">
+          <a href="/Resume, Brittney Oeur (2024).pdf" target="_blank">
                 <MagicButton
                  title="Resume"
                  icon={<FaFilePdf />}

@@ -80,11 +80,11 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "DS/3DS Chips Detection",
-      des: "Computer vision application designed to detect DS/3DS chips specificaully tailored for the Animal Crossing Series, utilizing OpenCV methods.",
-      img: "/ac_matching.png",
-      iconLists: ["/next.svg", "/cplusplus.svg", "/vscode.svg"],
-      link: "https://github.com/BrittneyOeur/CSS487_Final",
+      title: "JavaScript Weather App",
+      des: "A simple weather app that allows users to check the weather from any location. Powered by the OpenWeatherMap API.",
+      img: "/WeatherApp_2.png",
+      iconLists: ["/html.svg", "/css.svg", "/js.svg"],
+      link: "https://github.com/BrittneyOeur/Weather_App",
     },
     {
       id: 3,
