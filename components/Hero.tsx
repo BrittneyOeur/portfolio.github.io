@@ -27,7 +27,7 @@ const Hero = () => {
                     words="Hi, Brittney here"
                 />
                 <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-[15px] text-darkpurple">
-                    A front-end developer by day and an artist by heart. <br></br> I merge creativity and technology to build and make a positive impact.
+                    An software engineer by day and an artist by heart. <br></br> I have a passion in coding and creating.
                 </p>
                 <a href="#projects">
                     <MagicButton 

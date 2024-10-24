@@ -96,12 +96,12 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "2D Platformer Video Game",
-      des: "2D platformer video game with three levels, each with different terrain.",
-      img: "/platformer_sc.png",
-      iconName: ["C#", "Unity"],
-      iconLists: ["/csharp.svg", "/unity.svg"],
-      link: "https://github.com/BrittneyOeur/2D_Platformer",
+      title: "Web Based Side-Scrolling Game",
+      des: "A web browser-based, side-scrolling game featuring My Melody from Sanrio.",
+      img: "/SideScrollingGame.png",
+      iconName: ["HTML", "CSS", "JavaScript"],
+      iconLists: ["/html.svg", "/css.svg", "/js.svg"],
+      link: "https://github.com/BrittneyOeur/My-Melody-Side-Scrolling-Game",
     },
   ];
   
