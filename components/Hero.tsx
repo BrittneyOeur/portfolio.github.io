@@ -26,8 +26,11 @@ const Hero = () => {
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
                     words="Hi, Brittney here"
                 />
+                <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-[20px] text-darkpurple">
+                    A software engineer by day and an artist by heart.</p>
+                    
                 <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-[15px] text-darkpurple">
-                    An software engineer by day and an artist by heart. <br></br> I have a passion in coding and creating.
+                     I'm passionate about coding and love creating things that make a difference for people.<br></br>Whether it's through software or art, I'm driven by the joy of bringing ideas to life.
                 </p>
                 <a href="#projects">
                     <MagicButton 

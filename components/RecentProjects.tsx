@@ -13,7 +13,7 @@ const RecentProjects = () => {
       {/* controls the text sizing */}
       <h1 className="heading text-purple">
         Selections of {' '}
-        <span className="text-darkpurple">Recent Projects</span>
+        <span className="text-darkpurple">Projects</span>
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 mt-15">
