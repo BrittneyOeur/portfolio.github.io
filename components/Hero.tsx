@@ -30,8 +30,8 @@ const Hero = () => {
                     A software engineer by day and an artist by heart.</p>
 
                 <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-[15px] text-darkpurple">
-                    I'm passionate about coding and love creating things that make a difference for people.<br></br>
-                    Whether it's through software or art, I'm driven by the joy of bringing ideas to life.
+                    I&apos;m passionate about coding and love creating things that make a difference for people.<br></br>
+                    Whether it&apos;s through software or art, I&apos;m driven by the joy of bringing ideas to life.
                 </p>
 
                 <a href="#projects">
