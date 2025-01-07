@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaHeart, FaLocationArrow } from 'react-icons/fa'
+import { FaHeart } from 'react-icons/fa'
 
 const Hero = () => {
   return (

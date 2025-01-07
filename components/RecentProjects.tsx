@@ -1,9 +1,7 @@
 import React from 'react'
 import { projects } from '@/data'
-import { PinContainer } from './ui/3d-pin'
-import { FaAngleDoubleRight, FaLocationArrow } from 'react-icons/fa'
+import { FaAngleDoubleRight } from 'react-icons/fa'
 import { CardBody, CardContainer, CardItem } from './ui/3d-Card-Effect'
-import { Tooltip } from 'react-tooltip'
 
 const RecentProjects = () => {
   return (
