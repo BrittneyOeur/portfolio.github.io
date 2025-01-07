@@ -2,13 +2,11 @@
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
-import { IoCopyOutline } from "react-icons/io5";
-import { FaFilePdf, FaLocationArrow } from "react-icons/fa";
+import { FaFilePdf } from "react-icons/fa";
 import { Meteors } from "./Meteors";
 
 export const BentoGrid = ({
@@ -83,9 +81,7 @@ export const BentoGridItem = ({
         </div>
 
         {id == 1 && (
-          <Meteors number={20}>
-
-          </Meteors>
+          <Meteors number={20}/>
         )}
 
         <div 
@@ -157,7 +153,7 @@ export const BentoGridItem = ({
               }
             }} />
           </div>
-          <a href="/Resume, Brittney Oeur (2024).pdf" target="_blank">
+          <a href="" target="_blank">
                 <MagicButton
                  title="Resume"
                  icon={<FaFilePdf />}
