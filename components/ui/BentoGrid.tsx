@@ -1,10 +1,7 @@
 'use client'
 
 import { cn } from "@/utils/cn";
-import { BackgroundGradientAnimation } from "./GradientBg";
-import Lottie from "react-lottie";
 import { useState } from "react";
-import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import { FaFilePdf } from "react-icons/fa";
 import { Meteors } from "./Meteors";
@@ -110,7 +107,7 @@ export const BentoGridItem = ({
       
       {/* Third Card */}
       {id == 3 && (
-        <div className="flex gap-1 lg:gap-5 w-fit absolute lg:right-20"> 
+        <div className="flex gap-1 lg:gap-5 w-fit absolute lg:right-20 z-10"> 
           <a href="/Resume, Brittney Oeur (2025).pdf" target="_blank">
                 <MagicButton
                   title="Resume"
