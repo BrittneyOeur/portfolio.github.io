@@ -1,5 +1,4 @@
 import React from 'react'
-import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaHeart } from 'react-icons/fa'
@@ -7,13 +6,7 @@ import { FaHeart } from 'react-icons/fa'
 const Hero = () => {
   return (
     /* pb = padding bottom, pt = padding top */
-    <div className="pb-20 pt-36">
-        <div>
-            <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
-            <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill="purple" />
-            <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
-        </div>
-        
+    <div className="pb-20 pt-36"> 
         {/* h = horizontal, screen will fill the entire */}
         <div className="h-screen w-full dark:bg-pink-100 bg-pink dark:bg-dot-black/[0.2] bg-dot-black/[0.2] flex items-center justify-center absolute top-0 left-0">
         {/* Radial gradient for the container to give a faded look */}

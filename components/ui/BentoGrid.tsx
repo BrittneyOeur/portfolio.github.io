@@ -95,13 +95,6 @@ export const BentoGridItem = ({
           )}
         </div>
 
-
-        {id == 6 && (
-          <BackgroundGradientAnimation>
-            {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
-          </BackgroundGradientAnimation>
-        )}
-
         <div 
             className={cn(
             titleClassName, 
@@ -115,51 +108,16 @@ export const BentoGridItem = ({
           {title}
         </div>
       
-      {/* {id == 2 && <GlobeDemo />} Is used for the second card */}
-      
       {/* Third Card */}
       {id == 3 && (
-        <div className="flex gap-1 lg:gap-5 w-fit absolute -righ-3 lg:-right-2">  {/* Controls the layout of the boxes*/}
-          <div className="flex flex-col gap-3 lg:gap-5">  {/* Controls the layout of the boxes*/}
-            {['React', 'Next.js'].map
-            ((item) => (
-              <span key={item} className="py-2 lg:py-4 lg:px-5 px-3 text-xsl lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]"> {/* Controls the layout of the boxes*/}
-                {item}
-              </span>
-            ))}
-            <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-          </div>
-          <div className="flex flex-col gap-3 lg:gap-5">
-          <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-            {['Tailwind', 'OpenCV'].map
-            ((item) => (
-              <span key={item} className="py-2 lg:py-4 lg:px-5 px-3 text-xsl lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
-                {item}
-              </span>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {id == 6 && (
-        <div className="mt-5 relative">
-          <div className={`absolute -bottom-5 right-0`}>
-            <Lottie options={{
-              loop: copied, 
-              autoplay: copied,
-              animationData,
-              rendererSettings: {
-                preserveAspectRatio: 'xMidYMid slice',
-              }
-            }} />
-          </div>
-          <a href="" target="_blank">
+        <div className="flex gap-1 lg:gap-5 w-fit absolute lg:right-20"> 
+          <a href="/Resume, Brittney Oeur (2025).pdf" target="_blank">
                 <MagicButton
-                 title="Resume"
-                 icon={<FaFilePdf />}
-                 position="right"
-                 otherClasses="`bg-[#151a31]"
-                handleClick={handleCopy}
+                  title="Resume"
+                  icon={<FaFilePdf />}
+                  position="right"
+                  otherClasses="bg-[#151a31] cursor-pointer"
+                  handleClick={handleCopy}
                 />
           </a>
         </div>

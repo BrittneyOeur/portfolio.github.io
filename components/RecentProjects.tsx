@@ -15,7 +15,7 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 mt-15">
 
         {projects.map(({
-          id, title, des, img, iconLists, link}) => (
+          id, title, des, img, iconLists, link, live}) => (
           <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"> {/* Changes the layout of the cards of each project */}
 
         {/* -- Card Containers -- */}
@@ -68,12 +68,12 @@ const RecentProjects = () => {
                       <img src={icon} alt={icon} className="p-3"/>
                     </div>
                 ))}
-
               </div>
               
               {/* -- Card Live Site -- */}
-              <div className="flex justify-center items-center">
-                <a href={link} target="_blank"><p className="flex lg:text-xl md:text-xs text-sm text-purple">Github<FaAngleDoubleRight className="ms-3 mt-1" color="#CBACF9"/></p></a>
+              <div className="flex justify-center items-center gap-5">
+                <a href={link} target="_blank"><p className="flex lg:text-xl md:text-xs text-sm text-purple">Github</p></a>
+                <a href={live} target="_blank"><p className="flex lg:text-xl md:text-xs text-sm text-purple">Live</p></a>
               </div>
             </div>
 

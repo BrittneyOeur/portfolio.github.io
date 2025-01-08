@@ -2,7 +2,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "mailto:oeur.brittney@gmail.com" },
-  ];
+];
 
   export const gridItems = [
     {
@@ -19,7 +19,7 @@ export const navItems = [
     {
       id: 2,
       title: "C++, Python, HTML, CSS, JavaScript, TypeScript",
-      description: "Languages I am familiar with",
+      description: "Languages I am familiar with...",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-full",
       titleClassName: "justify-start",
@@ -28,42 +28,11 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "tech stack...",
-      description: "Always improving my",
+      title: "for more info",
+      description: "Check out my resume",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 4,
-      title: "Versatile artist, creating in different mediums",
-      description: "Also an...",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
-    },
-  
-    {
-      id: 5,
-      title: "I draw fanart, play video games and build custom keyboards",
-      description: "Outside of coding...",
-      className: "md:col-span-2 md:row-span-1",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "typing.png",
-      spareImg: "",
-    },
-    {
-      id: 6,
-      title: "resume",
-      description: "Check out my",
-      className: "lg:col-span-1 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
       spareImg: "",
     },
@@ -72,11 +41,12 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Personal Portfolio (Web App)",
-      des: "Personal website showcasing personal passion projects with Aceternity UI compenents integration.",
-      img: "/portfolio.png",
-      iconLists: ["/ts.svg", "/tail.svg", "/next.svg", "/re.svg"],
-      link: "https://github.com/BrittneyOeur/portfolio.github.io",
+      title: "Lippie Finder",
+      des: "A website that allows users to search for specific lip products, powered by Makeup API.",
+      img: "/lippie-finder.png",
+      iconLists: ["/re.svg", "/js.svg", "/node.svg"],
+      link: "https://github.com/BrittneyOeur/Lippie-Finder",
+      live: "https://lippie-finder.vercel.app/"
     },
     {
       id: 2,
@@ -85,6 +55,7 @@ export const navItems = [
       img: "/WeatherApp_2.png",
       iconLists: ["/html.svg", "/css.svg", "/js.svg"],
       link: "https://github.com/BrittneyOeur/Weather_App",
+      live:"https://weather-app-private-alpha.vercel.app/"
     },
     {
       id: 3,
@@ -93,6 +64,7 @@ export const navItems = [
       img: "/WithCare.png",
       iconLists: ["/figma.svg", "/notion.svg", "balsamiq.png"],
       link: "https://github.com/BrittneyOeur/WithCare",
+      live: "https://www.figma.com/design/VZr6nngKseVXMTyAEfiHvr/WithCare-(Mobile-Application-Wireframe)?node-id=0-1&t=jwo69ATQLgPrdYJO-1"
     },
     {
       id: 4,
@@ -102,6 +74,7 @@ export const navItems = [
       iconName: ["HTML", "CSS", "JavaScript"],
       iconLists: ["/html.svg", "/css.svg", "/js.svg"],
       link: "https://github.com/BrittneyOeur/My-Melody-Side-Scrolling-Game",
+      live: "https://brittneyoeur.github.io/My-Melody-Side-Scrolling-Game/"
     },
   ];
   
