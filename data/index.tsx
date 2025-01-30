@@ -101,7 +101,7 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/megumi.png"
+      img: "/Megumi.png"
     },
     {
       id: 3,
