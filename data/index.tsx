@@ -86,7 +86,7 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/Chance (Bday).png"
+      img: "/Drawing2.png"
     },
     {
       id: 3,
