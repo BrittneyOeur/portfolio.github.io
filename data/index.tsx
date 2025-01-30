@@ -2,6 +2,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "mailto:oeur.brittney@gmail.com" },
+    { name: "Art", link: "#art" },
 ];
 
   export const gridItems = [
@@ -77,6 +78,36 @@ export const navItems = [
       live: "https://brittneyoeur.github.io/My-Melody-Side-Scrolling-Game/"
     },
   ];
+
+  export const art = [
+    {
+      id: 1,
+      img: "/konon.png"
+    },
+    {
+      id: 2,
+      img: "/Chance (Bday).png"
+    },
+    {
+      id: 3,
+      img: "08092022.png"
+    }
+  ];
+
+  export const graphics = [
+    {
+      id: 1,
+      img: "/twitterBanner1.png"
+    },
+    {
+      id: 2,
+      img: "/megumi.png"
+    },
+    {
+      id: 3,
+      img: "/Jett Header.png"
+    }
+  ]
   
   export const socialMedia = [
     {
@@ -89,7 +120,7 @@ export const navItems = [
       id: 2,
       img: "/link.svg",
       name: "LinkedIn",
-      link: "https://www.linkedin.com/in/brittney-o-05697b159/"
+      link: "https://www.linkedin.com/in/brittney-oeur/"
     },
     {
       id: 3,

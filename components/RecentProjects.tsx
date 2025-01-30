@@ -6,7 +6,6 @@ import { CardBody, CardContainer, CardItem } from './ui/3d-Card-Effect'
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
-
       <h1 className="heading text-purple">
         Selections of {' '}
         <span className="text-darkpurple">Projects</span>
