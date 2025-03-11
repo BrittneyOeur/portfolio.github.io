@@ -6,7 +6,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
 
-      <h1 className="heading text-purple">
+      <h1 className="heading text-pink-500">
         Selections of {' '}
         <span className="text-darkpurple">Projects</span>
       </h1>
