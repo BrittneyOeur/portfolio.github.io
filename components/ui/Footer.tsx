@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-10 pb-10 mb-[100px] md:mb-5" id="contact">
         <div className="flex mt:16 md:flex-row flex-col justify-between items-center">
-            <p className="md:text-base text-sm md:font-normal font-light dark:text-darkpurple">Copyright © 2024 Brittney</p>
+            <p className="md:text-base text-sm md:font-normal font-light dark:text-darkpurple">Copyright © 2025 Brittney</p>
             <div className="flex items-center md:gap-5 gap-6">
                 {socialMedia.map((profile) => (
                     <a href={profile.link} target="_blank" key={profile.id}>

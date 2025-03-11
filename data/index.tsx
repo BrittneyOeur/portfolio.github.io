@@ -2,6 +2,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "mailto:oeur.brittney@gmail.com" },
+    { name: "Art", link: "#art" },
 ];
 
   export const gridItems = [
@@ -86,6 +87,36 @@ export const navItems = [
       live: "https://www.figma.com/design/VZr6nngKseVXMTyAEfiHvr/WithCare-(Mobile-Application-Wireframe)?node-id=0-1&t=jwo69ATQLgPrdYJO-1"
     },
   ];
+
+  export const art = [
+    {
+      id: 1,
+      img: "/konon.png"
+    },
+    {
+      id: 2,
+      img: "/Drawing2.png"
+    },
+    {
+      id: 3,
+      img: "08092022.png"
+    }
+  ];
+
+  export const graphics = [
+    {
+      id: 1,
+      img: "/twitterBanner1.png"
+    },
+    {
+      id: 2,
+      img: "/Megumi.png"
+    },
+    {
+      id: 3,
+      img: "/Jett Header.png"
+    }
+  ]
   
   export const socialMedia = [
     {
@@ -98,7 +129,7 @@ export const navItems = [
       id: 2,
       img: "/link.svg",
       name: "LinkedIn",
-      link: "https://www.linkedin.com/in/brittney-o-05697b159/"
+      link: "https://www.linkedin.com/in/brittney-oeur/"
     },
     {
       id: 3,
