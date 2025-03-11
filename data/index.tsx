@@ -41,6 +41,15 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Mood Book",
+      des: "Full stack mood tracker web app designed for users to record and reflect on their emotions.",
+      img: "/mood-book.png",
+      iconLists: ["/re.svg", "/js.svg", "/tail.svg", "/node.svg", "/next.svg", "/aws-cognito.svg", "/mongodb.png"],
+      link: "https://github.com/BrittneyOeur/MoodBook",
+      live: "https://mood-book-ten.vercel.app/"
+    },
+    {
+      id: 2,
       title: "Lippie Finder",
       des: "A website that allows users to search for specific lip products, powered by Makeup API.",
       img: "/lippie-finder.png",
@@ -49,22 +58,13 @@ export const navItems = [
       live: "https://lippie-finder.vercel.app/"
     },
     {
-      id: 2,
+      id: 3,
       title: "JavaScript Weather App",
       des: "A simple weather app that allows users to check the weather from any location. Powered by the OpenWeatherMap API.",
       img: "/WeatherApp_2.png",
       iconLists: ["/html.svg", "/css.svg", "/js.svg"],
       link: "https://github.com/BrittneyOeur/Weather_App",
       live:"https://weather-app-private-alpha.vercel.app/"
-    },
-    {
-      id: 3,
-      title: "WithCare Health Tracking Mobile App",
-      des: "Health tracking mobile application (high fidelity prototype) for informal caregivers.",
-      img: "/WithCare.png",
-      iconLists: ["/figma.svg", "/notion.svg", "balsamiq.png"],
-      link: "https://github.com/BrittneyOeur/WithCare",
-      live: "https://www.figma.com/design/VZr6nngKseVXMTyAEfiHvr/WithCare-(Mobile-Application-Wireframe)?node-id=0-1&t=jwo69ATQLgPrdYJO-1"
     },
     {
       id: 4,
@@ -75,6 +75,15 @@ export const navItems = [
       iconLists: ["/html.svg", "/css.svg", "/js.svg"],
       link: "https://github.com/BrittneyOeur/My-Melody-Side-Scrolling-Game",
       live: "https://brittneyoeur.github.io/My-Melody-Side-Scrolling-Game/"
+    },
+    {
+      id: 5,
+      title: "WithCare Health Tracking Mobile App",
+      des: "Health tracking mobile application (high fidelity prototype) for informal caregivers.",
+      img: "/WithCare.png",
+      iconLists: ["/figma.svg", "/notion.svg", "balsamiq.png"],
+      link: "https://github.com/BrittneyOeur/WithCare",
+      live: "https://www.figma.com/design/VZr6nngKseVXMTyAEfiHvr/WithCare-(Mobile-Application-Wireframe)?node-id=0-1&t=jwo69ATQLgPrdYJO-1"
     },
   ];
   

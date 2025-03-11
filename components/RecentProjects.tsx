@@ -1,13 +1,12 @@
 import React from 'react'
 import { projects } from '@/data'
-import { FaAngleDoubleRight } from 'react-icons/fa'
 import { CardBody, CardContainer, CardItem } from './ui/3d-Card-Effect'
 
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
 
-      <h1 className="heading text-purple">
+      <h1 className="heading text-pink-500">
         Selections of {' '}
         <span className="text-darkpurple">Projects</span>
       </h1>
@@ -72,8 +71,8 @@ const RecentProjects = () => {
               
               {/* -- Card Live Site -- */}
               <div className="flex justify-center items-center gap-5">
-                <a href={link} target="_blank"><p className="flex lg:text-xl md:text-xs text-sm text-purple">Github</p></a>
-                <a href={live} target="_blank"><p className="flex lg:text-xl md:text-xs text-sm text-purple">Live</p></a>
+                <a href={link} target="_blank"><p className="flex lg:text-xl md:text-xs text-sm text-pink-100">Github</p></a>
+                <a href={live} target="_blank"><p className="flex lg:text-xl md:text-xs text-sm text-pink-100">Live</p></a>
               </div>
             </div>
 
