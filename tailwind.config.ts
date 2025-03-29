@@ -45,6 +45,8 @@ const config = {
           "100": "#fee2ee",
           "500": "#ec4899",
         },
+        dustygreen: "#667A6C",
+        orange: "#ff643b",
         purple: "#CBACF9",
         darkpurple: "#13162D",
         border: "hsl(var(--border))",

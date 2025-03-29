@@ -44,8 +44,8 @@ export const navItems = [
       id: 1,
       title: "Mood Book",
       des: "Full stack mood tracker web app designed for users to record and reflect on their emotions.",
-      img: "/mood-book.png",
-      iconLists: ["/re.svg", "/js.svg", "/tail.svg", "/node.svg", "/next.svg", "/aws-cognito.svg", "/mongodb.png"],
+      img: "/Mood-Book-Icon.ico",
+      iconLists: ["/re.svg", "/node.svg", "/js.svg", "/tail.svg", "/next-dark.svg", "/aws-cognito.svg", "/mongodb.png"],
       link: "https://github.com/BrittneyOeur/MoodBook",
       live: "https://mood-book-ten.vercel.app/"
     },
@@ -53,8 +53,8 @@ export const navItems = [
       id: 2,
       title: "Lippie Finder",
       des: "A website that allows users to search for specific lip products, powered by Makeup API.",
-      img: "/lippie-finder.png",
-      iconLists: ["/re.svg", "/js.svg", "/node.svg"],
+      img: "/kiss-mark.svg",
+      iconLists: ["/re.svg", "/node.svg", "/js.svg"],
       link: "https://github.com/BrittneyOeur/Lippie-Finder",
       live: "https://lippie-finder.vercel.app/"
     },
@@ -79,10 +79,10 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "WithCare Health Tracking Mobile App",
+      title: "WithCare Health Tracking Mobile App (Prototype)",
       des: "Health tracking mobile application (high fidelity prototype) for informal caregivers.",
       img: "/WithCare.png",
-      iconLists: ["/figma.svg", "/notion.svg", "balsamiq.png"],
+      iconLists: ["/notion.svg", "balsamiq.png", "/figma.svg"],
       link: "https://github.com/BrittneyOeur/WithCare",
       live: "https://www.figma.com/design/VZr6nngKseVXMTyAEfiHvr/WithCare-(Mobile-Application-Wireframe)?node-id=0-1&t=jwo69ATQLgPrdYJO-1"
     },
@@ -121,20 +121,20 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "/email.svg",
+      name: "Email",
+      link: "mailto:oeur.brittney@gmail.com"
+    },
+    {
+      id: 2,
+      img: "/Github.svg",
       name: "Github",
       link: "https://github.com/BrittneyOeur"
     },
     {
-      id: 2,
-      img: "/link.svg",
-      name: "LinkedIn",
-      link: "https://www.linkedin.com/in/brittney-oeur/"
-    },
-    {
       id: 3,
-      img: "/link.svg",
-      name: "Email",
-      link: "mailto:oeur.brittney@gmail.com"
+      img: "/linkedin.svg",
+      name: "Linkedin",
+      link: "https://www.linkedin.com/in/brittney-oeur/"
     },
   ];

@@ -1,21 +1,13 @@
-import Art from "@/components/Art";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNav";
 import Footer from "@/components/ui/Footer";
-import { navItems } from "@/data";
+import NavBar from "@/components/ui/NavBar";
 
 export default function Home() {
   return (
-
-    <main className="relative bg-pink-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
-      <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
+    <main className="relative bg-white flex flex-col min-h-screen mx-auto sm:px-6 md:px-14 overflow-clip">
+      <div className="flex-1">
+        <NavBar />
         <Hero />
-        <Grid />
-        <RecentProjects />
-        <Art />
         <Footer />
       </div>
     </main>
