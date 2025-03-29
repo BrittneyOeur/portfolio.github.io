@@ -31,7 +31,7 @@ const About = () => {
 
                         <motion.p className="p-4" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.4 }}>
                             I graduated from the University of Washington with a <br />
-                            Bachelor's degree in <span className="text-dustygreen underline">Applied Computing</span> and a minor in <span className="text-dustygreen underline">Informatics</span>.
+                            Bachelor&apos;s degree in <span className="text-dustygreen underline">Applied Computing</span> and a minor in <span className="text-dustygreen underline">Informatics</span>.
                         </motion.p>
 
                         <motion.p className="p-4" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.6 }}>
