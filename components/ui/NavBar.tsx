@@ -7,6 +7,11 @@ const NavBar = () => {
             {/*<h1 className="text-lg font-bold"><a href="/" className="text-black hover:text-orange duration-100 ease-in-out">Brittney Oeur</a></h1>*/}
             <ul className="flex gap-6">
                 <li>
+                    <a href="/" className="text-black hover:text-orange duration-75 ease-in-out">
+                        home
+                    </a>
+                </li>
+                <li>
                     <a href="./about" className="text-black hover:text-orange duration-75 ease-in-out">
                         about
                     </a>

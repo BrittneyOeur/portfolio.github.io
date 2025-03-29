@@ -6,18 +6,18 @@ import Footer from "@/components/ui/Footer";
 
 const About = () => {
     return (
-        <div className="relative flex flex-col min-h-screen mx-auto sm:px-6 md:px-14">
+        <div className="relative flex flex-col min-h-screen mx-auto px-6 sm:px-6 md:px-14">
             <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1.5 }}
-                className="absolute inset-0 bg-[url('/star-chrome.png')] bg-no-repeat bg-fixed bg-center bg-[length:1200px_675px]"
+                className="absolute inset-0 bg-[url('/star-chrome.png')] bg-no-repeat bg-fixed bg-center sm:bg-[length:1200px_675px] lg:bg-[length:800px_450px]"
             />
 
             <NavBar />
             
             {/* Content with semi-transparent white background */}
-            <div className="flex-1 flex justify-center items-center bg-white bg-opacity-80 relative">
+            <div className="flex-1 flex justify-center items-center relative">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col">
                     <div className="text-center whitespace-normal mt-16">
                         <motion.h1 
