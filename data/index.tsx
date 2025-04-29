@@ -60,25 +60,15 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "JavaScript Weather App",
-      des: "A simple weather app that allows users to check the weather from any location. Powered by the OpenWeatherMap API.",
-      img: "/WeatherApp_2.png",
-      iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-      link: "https://github.com/BrittneyOeur/Weather_App",
-      live:"https://weather-app-private-alpha.vercel.app/"
+      title: "Nintendo Game Chip Detector",
+      des: "Computer vision application to detect and identify Animal Crossing DS/3DS game chips from images.",
+      img: "",
+      iconLists: ["/cplusplus.svg", "/opencv.svg"],
+      link: "https://github.com/BrittneyOeur/Animal-Crossing-Chips-Detection-Computer-Vision",
+      live: "https://github.com/BrittneyOeur/Animal-Crossing-Chips-Detection-Computer-Vision/blob/main/README.md"
     },
     {
       id: 4,
-      title: "Web Based Side-Scrolling Game",
-      des: "A web browser-based, side-scrolling game featuring My Melody from Sanrio.",
-      img: "/SideScrollingGame.png",
-      iconName: ["HTML", "CSS", "JavaScript"],
-      iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-      link: "https://github.com/BrittneyOeur/My-Melody-Side-Scrolling-Game",
-      live: "https://brittneyoeur.github.io/My-Melody-Side-Scrolling-Game/"
-    },
-    {
-      id: 5,
       title: "WithCare Health Tracking Mobile App (Prototype)",
       des: "Health tracking mobile application (high fidelity prototype) for informal caregivers.",
       img: "/WithCare.png",

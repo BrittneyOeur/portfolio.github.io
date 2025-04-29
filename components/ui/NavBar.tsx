@@ -17,7 +17,7 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/Resume, Brittney Oeur (2025).pdf" target="_blank" className="text-black hover:text-orange duration-75 ease-in-out">
+                    <a href="/Brittney Oeur, Resume (2025).pdf" target="_blank" className="text-black hover:text-orange duration-75 ease-in-out">
                         resume
                     </a>
                 </li>
