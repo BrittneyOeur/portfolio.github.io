@@ -4,11 +4,9 @@ import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/utils/cn";
 
 export const FadingText = ({
-  text,
   className,
   delay = 0.2,
 }: {
-  text: string;
   className?: string;
   delay?: number;
 }) => {
@@ -32,8 +30,8 @@ export const FadingText = ({
       transition={{ duration: 1.5, delay }}
       className={cn("text-black", className)}
     >
-      A <span className="underline text-orange">software engineer</span> by day and an{" "}
-      <span className="underline text-orange">artist</span> by heart
+      Dreaming in <span className="underline text-orange">color</span>, designing with {" "}
+      <span className="underline text-orange">logic</span> and building with <span className="underline text-orange">heart</span>
     </motion.div>
   );
 };
