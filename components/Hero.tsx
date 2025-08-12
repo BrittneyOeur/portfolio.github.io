@@ -15,7 +15,7 @@ const Hero = () => {
                     <div className="mb-14">
                         <TextGenerateEffect
                             className="text-center text-[32px] md:text-4xl lg:text-4xl font-bold"
-                            words="Brittney Oeur"
+                            words="Brittney O."
                         />
                         <TextGenerateEffect
                             className="text-center text-[32px] md:text-4xl lg:text-[20px]"

@@ -4,7 +4,7 @@ import NavBar from "@/components/ui/NavBar";
 
 export default function Home() {
   return (
-    <main className="relative bg-white flex flex-col min-h-screen mx-auto sm:px-6 md:px-14 overflow-clip">
+    <main className="relative bg-white flex flex-col min-h-screen mx-auto sm:px-6 md:px-24 overflow-clip">
       <div className="flex-1">
         <NavBar />
         <Hero />

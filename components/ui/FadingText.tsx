@@ -30,8 +30,8 @@ export const FadingText = ({
       transition={{ duration: 1.5, delay }}
       className={cn("text-black", className)}
     >
-      Dreaming in <span className="underline text-orange">color</span>, designing with {" "}
-      <span className="underline text-orange">logic</span> and building with <span className="underline text-orange">heart</span>
+      Always <span className="underline text-orange">creating</span>, always {" "}
+      <span className="underline text-orange">caring</span>
     </motion.div>
   );
 };

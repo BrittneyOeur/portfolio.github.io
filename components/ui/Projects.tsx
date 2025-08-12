@@ -26,7 +26,7 @@ const Projects = () => {
                                     key={index}
                                     className="flex w-10 h-10 lg:w-11 lg:h-11 justify-center items-center pb-3"
                                 >
-                                    <img src={icon} alt={icon} className="px-3" />
+                                    <img src={icon} alt={icon} className="px-3"/>
                                 </div>
                             ))}
                         </div>
