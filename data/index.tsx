@@ -42,17 +42,17 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "OTC Vision: Medication Label Reader",
+      title: "OTC Vision: Medication Label Reader (WIP)",
       des: "Mobile app that uses computer vision to read over-the-counter medication labels and share key details about the product.",
       img: "/kiss-mark.svg",
       iconLists: ["/re.svg", "/ts.svg", "cloud-vision-api.svg", "/aws-lambda.svg", "/expo-go.svg"],
-      link: "https://github.com/BrittneyOeur/Lippie-Finder",
-      live: "https://lippie-finder.vercel.app/"
+      link: "https://github.com/BrittneyOeur",
+      live: "https://github.com/BrittneyOeur"
     },
     {
       id: 2,
       title: "Mood Book",
-      des: "Full stack mood tracker web app designed for users to record and reflect on their emotions.",
+      des: "Full stack mood tracker web application designed for users to record and reflect on their emotions.",
       img: "/Mood-Book-Icon.ico",
       iconLists: ["/re.svg", "/node.svg", "/js.svg", "/tail.svg", "/next-dark.svg", "/aws-cognito.svg", "/mongodb.png"],
       link: "https://github.com/BrittneyOeur/MoodBook",
