@@ -42,7 +42,7 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "OTC Vision: Medication Label Reader (WIP)",
+      title: "OTC Vision: Medication Label Reader",
       des: "Mobile app that uses computer vision to read over-the-counter medication labels and share key details about the product.",
       img: "/kiss-mark.svg",
       iconLists: ["/re.svg", "/ts.svg", "cloud-vision-api.svg", "/aws-lambda.svg", "/expo-go.svg"],
