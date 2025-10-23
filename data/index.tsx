@@ -46,8 +46,8 @@ export const navItems = [
       des: "Mobile app that uses computer vision to read over-the-counter medication labels and share key details about the product.",
       img: "/kiss-mark.svg",
       iconLists: ["/re.svg", "/ts.svg", "cloud-vision-api.svg", "/aws-lambda.svg", "/expo-go.svg"],
-      link: "https://github.com/BrittneyOeur",
-      live: "https://github.com/BrittneyOeur"
+      link: "https://github.com/BrittneyOeur/OTC-Vision",
+      live: "https://github.com/BrittneyOeur/OTC-Vision"
     },
     {
       id: 2,
@@ -60,7 +60,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Nintendo Game Chip Detector",
+      title: "Animal Crossing DS/3DS Chip Detector",
       des: "Computer vision application to detect and identify Animal Crossing DS/3DS game chips from images.",
       img: "",
       iconLists: ["/cplusplus.svg", "/opencv.svg"],

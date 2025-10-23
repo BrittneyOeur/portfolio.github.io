@@ -40,8 +40,8 @@ const About = () => {
                         </motion.p>
 
                         <motion.p className="pt-4" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.8 }}>
-                            My goal is to use my skills to create meaningful and <br />
-                            impactful experiences that benefit others.
+                            I want to use my skills to create something my. <br />
+                            younger self would think is super cool.
                         </motion.p>
                     </div>
                 </div>
