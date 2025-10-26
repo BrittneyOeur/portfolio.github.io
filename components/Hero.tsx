@@ -3,6 +3,7 @@
 import React from 'react'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import Projects from './ui/Projects'
+import Work from './ui/Work'
 import { FadingText } from './ui/FadingText'
 import { motion } from "framer-motion";
 
@@ -37,7 +38,10 @@ const Hero = () => {
                         />
                     </div>
                 </div>
-                <Projects/>
+                <div className="padding-container max-w-[89vw] md:max-w-2xl lg:max-w-[50vw] flex flex-col gap-12">
+                    <Work/>
+                    <Projects/>
+                </div>
             </div>
         </div>
     </div>

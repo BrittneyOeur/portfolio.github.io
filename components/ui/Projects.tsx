@@ -10,6 +10,7 @@ const Projects = () => {
             animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 1, staggerChildren: 0.3 }}
         >
+            <h1 className="text-dustygreen text-2xl font-bold px-6">PROJECTS</h1>
             {projects.map(({ id, title, des, img, iconLists, link, live }) => (
                 <motion.div 
                     key={id} 

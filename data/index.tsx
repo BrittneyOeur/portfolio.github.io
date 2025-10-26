@@ -5,39 +5,26 @@ export const navItems = [
     { name: "Art", link: "#art" },
 ];
 
-  export const gridItems = [
-    {
-      id: 1,
-      title: "Graduated from the University of Washington with a major in Applied Computing and a minor in Informatics.",
-      description: "",
-      /* Changes the size of the box */
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[20vh] lg:h-[372px]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 2,
-      title: "C++, Python, HTML, CSS, JavaScript, TypeScript",
-      description: "Languages I am familiar with...",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "",
-    },
-    {
-      id: 3,
-      title: "for more info",
-      description: "Check out my resume",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
-    },
-  ];
+export const work = [
+  {
+    id: 1,
+    title: "Production Technician",
+    company: "SpaceX",
+    location: "Redmond, WA",
+    duration: "July 2025 - Present",
+    des: "Assisted in building electrical sub-assemblies, organizing components, and developing prototype test systems for component and life testing. Collaborated with engineering to identify and resolve production yield issues, document failure modes, and enhance the quality of delivered avionics hardware.",
+    link: ""
+  },
+  {
+    id: 2,
+    title: "Shopify Front-End Developer",
+    company: "ash._.lie (Independent Art Brand)",
+    location: "Remote",
+    duration: "June 2025 - Present",
+    des: "Maintained and improved a Shopify store by customizing features and adding new functionality using Liquid, HTML, and CSS. Worked closely with the business owner to align updates with branding goals, manage product collections, and enhance the overall customer experience.",
+    link: "https://www.ash-lie.com/"
+  }
+]
 
   export const projects = [
     {
