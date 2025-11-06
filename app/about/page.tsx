@@ -7,12 +7,6 @@ import Footer from "@/components/ui/Footer";
 const About = () => {
     return (
         <div className="relative flex flex-col min-h-screen mx-auto px-6 sm:px-6 md:px-14">
-            <motion.div 
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
-                className="absolute inset-0 bg-[url('/star-chrome.png')] bg-no-repeat bg-fixed bg-center sm:bg-[length:1200px_675px] lg:bg-[length:800px_450px]"
-            />
 
             <NavBar />
             
@@ -35,8 +29,9 @@ const About = () => {
                         </motion.p>
 
                         <motion.p className="p-4" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.6 }}>
-                            From a young age, I have been passionate about both technology and art.<br />
-                            Whether it was playing on my Nintendo DS in bed or sketching in my notebook during class.
+                            My passion for technology and art has always gone side by side, <br/> 
+                            one fuels my curiosity, the other my creativity. <br/>
+                            Blending them feels like creating a piece of who I am.
                         </motion.p>
 
                         <motion.p className="pt-4" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.8 }}>
