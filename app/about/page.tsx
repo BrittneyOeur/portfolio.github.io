@@ -11,15 +11,15 @@ const About = () => {
       <NavBar />
 
       {/* Content with semi-transparent white background */}
-      <div className="flex-1 flex justify-center items-center relative">
+      <div className="flex-1 flex justify-center items-center relative m-auto">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col">
-          <div className="text-center whitespace-normal mt-16 lg:px-80">
+          <div className="text-center whitespace-normal lg:mt-16 lg:px-80 sm:mt-32">
             <motion.img
               src="/spirit_lofi.gif"
               alt="Lofi Spirit"
               width="438"
               height="240"
-              className="mx-auto mb-14 rounded-lg hover:scale-105 transition-transform duration-300"
+              className="mx-auto mb-14  rounded-lg hover:scale-105 transition-transform duration-300"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1.5 }}
