@@ -24,7 +24,7 @@ const Hero = () => {
                         />
                     </div>
                     <motion.img 
-                        src="/Nike-Dunks.png" 
+                        src="/hero_drawing.png" 
                         width="450" 
                         height="450"
                         initial={{ opacity: 0 }} 

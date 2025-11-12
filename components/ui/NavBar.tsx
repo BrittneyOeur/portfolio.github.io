@@ -3,22 +3,21 @@ import React from 'react';
 const NavBar = () => {
     return (
         <nav className="fixed top-0 left-0 w-full bg-white dark:bg-white py-4 px-6 flex justify-between items-center z-50 border-b-2">
-            <a href="/"><img src="/star-icon.png" width="25" height="25"/></a>
-            {/*<h1 className="text-lg font-bold"><a href="/" className="text-black hover:text-orange duration-100 ease-in-out">Brittney Oeur</a></h1>*/}
+            <a href="/"><p className="font-bold text-second">B.</p></a>
             <ul className="flex gap-6">
                 <li>
-                    <a href="/" className="text-black hover:text-orange duration-75 ease-in-out">
-                        home
+                    <a href="/" className="text-black hover:text-second duration-75 ease-in-out">
+                        HOME
                     </a>
                 </li>
                 <li>
-                    <a href="./about" className="text-black hover:text-orange duration-75 ease-in-out">
-                        about
+                    <a href="./about" className="text-black hover:text-second duration-75 ease-in-out">
+                        ABOUT
                     </a>
                 </li>
                 <li>
-                    <a href="/Brittney Oeur, Resume (2025).pdf" target="_blank" className="text-black hover:text-orange duration-75 ease-in-out">
-                        resume
+                    <a href="/Brittney Oeur, Resume (2025).pdf" target="_blank" className="text-black hover:text-second duration-75 ease-in-out">
+                        RESUME
                     </a>
                 </li>
             </ul>

@@ -30,8 +30,8 @@ export const FadingText = ({
       transition={{ duration: 1.5, delay }}
       className={cn("text-black", className)}
     >
-      Always <span className="underline text-orange">creating</span>, always {" "}
-      <span className="underline text-orange">caring</span>
+      Blending creativity and innovation <br></br> through <span className="underline text-second">art</span> and {" "}
+      <span className="underline text-second">technology.</span>
     </motion.div>
   );
 };

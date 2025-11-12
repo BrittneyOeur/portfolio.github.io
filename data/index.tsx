@@ -33,8 +33,7 @@ export const work = [
       des: "Mobile app that uses computer vision to read over-the-counter medication labels and share key details about the product.",
       img: "/kiss-mark.svg",
       iconLists: ["/re.svg", "/ts.svg", "cloud-vision-api.svg", "/aws-lambda.svg", "/expo-go.svg"],
-      link: "https://github.com/BrittneyOeur/OTC-Vision",
-      live: "https://github.com/BrittneyOeur/OTC-Vision"
+      link: "https://github.com/BrittneyOeur/OTC-Vision"
     },
     {
       id: 2,
@@ -52,7 +51,6 @@ export const work = [
       img: "",
       iconLists: ["/cplusplus.svg", "/opencv.svg"],
       link: "https://github.com/BrittneyOeur/Animal-Crossing-Chips-Detection-Computer-Vision",
-      live: "https://github.com/BrittneyOeur/Animal-Crossing-Chips-Detection-Computer-Vision/blob/main/README.md"
     },
     {
       id: 4,
