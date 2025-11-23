@@ -12,7 +12,7 @@ const About = () => {
 
       {/* Content with semi-transparent white background */}
       <div className="flex-1 flex justify-center items-center relative m-auto">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[70vw] flex flex-col">
           <div className="text-center whitespace-normal mt-28 lg:px-80">
             <motion.img
               src="/spirit_lofi.gif"
@@ -41,9 +41,7 @@ const About = () => {
             >
               She graduated from University of Washington with a Bachelor&apos;s
               degree in{" "}
-              <span className="text-second underline">
-                Applied Computing
-              </span>{" "}
+              <span className="text-second underline">Applied Computing</span>{" "}
               and a minor in{" "}
               <span className="text-second underline">Informatics</span>.
             </motion.p>
